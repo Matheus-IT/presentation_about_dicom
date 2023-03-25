@@ -10,6 +10,11 @@ def main():
     ic(ds.PatientBirthDate)
     # ic(ds.PatientWeight) NOT FOUND, IT'S OPTIONAL
 
+    # >> ds.PatientName: 'Case2'
+    #    ds.PatientID: 'Case2'
+    #    ds.PatientSex: 'M'
+    #    ds.PatientBirthDate: ''
+
 
 if __name__ == "__main__":
     main()
