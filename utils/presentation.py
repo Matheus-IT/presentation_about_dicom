@@ -25,11 +25,10 @@ def compare(ds1: FileDataset, ds2: FileDataset):
 
 def show_pixel_info(ds: FileDataset):
     draw_line()
-    # p_dicom(ds, "PhotometricInterpretation")
-    # p_dicom(ds, "SamplesPerPixel")
-    # p_dicom(ds, "BitsAllocated")
-    # p_dicom(ds, "BitsStored")
-    # p_dicom(ds, "HighBit")
-    # p_dicom(ds, "PixelRepresentation")
-    # p_dicom(ds, "NumberOfFrames")
+    ic(ds["PhotometricInterpretation"])
+    ic(ds["SamplesPerPixel"])
+    ic(ds["BitsAllocated"])
+    ic(ds["BitsStored"])
+    ic(ds["HighBit"])
+    ic(ds["PixelRepresentation"])
     draw_line()
